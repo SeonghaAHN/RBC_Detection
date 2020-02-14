@@ -6,7 +6,9 @@ import os
 import glob
 
 path = os.getcwd()
-class_id = {'apple' : 0}
+# EDIT HERE
+# class_id = {'CLASS_NAME' : ID_NUM}
+class_id = {'CLASS_NAME': 0}
 
 def convert_xml2yolo():
     #xml name + txt
@@ -35,7 +37,7 @@ def convert_xml2yolo():
 
                 fname_txt = os.path.splitext(fname)
 
-                if class_name == 'apple':
+                if class_name == 'CLASS_NAME':
                     if object_num != 1:
                         f.write(" " + str(xmin) + "," + str(ymin) + "," + str(xmax) + "," + str(ymax)  + 
                                 "," + str(class_id[class_name]))
