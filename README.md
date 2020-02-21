@@ -4,10 +4,9 @@ This repository is inspired by YOLO keras implementation of qqwweee
 For details, please refer the original repo linked above.
 
 ## convert.py  
-- convert .xml format label file into the format used in original repository.
-  ### How to use
-  save `convert.py` in dataset directory and run it.  
-  .txt format label will be generated in the same directory. 
+- convert .xml format label file into the format used in original repository.  
+- save `convert.py` in dataset directory and run it    
+- .txt format label will be generated in the same directory.  
   
 ## yolo_video.py  
 - predict on all test image by using command `python yolo_video.py --image`  
