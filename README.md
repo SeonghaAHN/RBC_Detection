@@ -15,5 +15,5 @@ For details, please refer the original repo linked above.
 ## train_via_notebook.ipynb  
 - Notebook for training
 
-## generate_gt_image.ipynb  
-- Generate GroundTruth images
+## visualize_gt.ipynb  
+- visualize GroundTruth images
