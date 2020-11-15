@@ -10,7 +10,7 @@ For details, please refer the original repo linked above.
   
 ## yolo_video.py  
 - predict on all test image by using command `python yolo_video.py --image`  
-- The final weight file must be renamed as `yolo.h5` and saved in `model_data` directory before running  
+- The final weight file must be renamed as `yolo.h5` and saved in `model_data` directory before execution  
 
 ## train_via_notebook.ipynb  
 - Notebook for training
