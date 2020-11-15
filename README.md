@@ -5,7 +5,7 @@ For details, please refer the original repo linked above.
 
 ## convert.py  
 - convert .xml format label file into the format used in original repository.  
-- save `convert.py` in dataset directory and run it    
+- save `convert.py` in dataset directory and execute    
 - .txt format label will be generated in the same directory.  
   
 ## yolo_video.py  
